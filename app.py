@@ -1,18 +1,12 @@
 
 import db 
 
-# Execute a query
-
-
-
 # Welcome message for user in Terminal
 print('Welcome back to learning Chinese Words!')
-
 
 # Serve user with a random card and print the column 'translation_english'
 card_data = db.execute_query('SELECT * FROM cards_chinese ORDER BY RANDOM() LIMIT 1')
 print('What is English translation of the word "' + card_data['translation_english'] + '"?')
-
 
 
 # Take User input

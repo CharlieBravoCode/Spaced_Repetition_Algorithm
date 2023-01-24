@@ -1,0 +1,18 @@
+INSERT INTO cards_chinese (chinese_character, translation_english, pinyin, hsk_level)
+VALUES ('你好', 'Hello', 'ní hǎo', 1),
+('是', 'Yes', 'shì', 1),
+('不是', 'No', 'bù shì', 1),
+('对', 'Correct', 'duì', 1),
+('不对', 'Incorrect', 'bù duì', 1),
+('好', 'Good', 'hǎo', 1),
+('不好', 'Bad', 'bù hǎo', 1),
+('去', 'Go', 'qù', 1),
+('来', 'Come', 'lái', 1),
+('喜欢', 'Like', 'xǐhuān', 1),
+('不喜欢', 'Dislike', 'bù xǐhuān', 1),
+('吃', 'Eat', 'chī', 1),
+('喝', 'Drink', 'hē', 1),
+('睡觉', 'Sleep', 'shuìjiào', 1),
+('今天', 'Today', 'jīntiān', 1),
+('昨天', 'Yesterday', 'zuótiān', 1),
+('明天', 'Tomorrow', 'míngtiān', 1);
