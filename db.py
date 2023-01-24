@@ -37,6 +37,12 @@ def commit_and_close_connection(conn):
     # Close connection
     conn.close()
 
+def add_card_to_status_table(card_id):
+    conn, c = connect_database()
+    current_date = time.strftime("%Y-%m-%d")
+    c.execute(f"INSERT INTO card_status (card_id, date_last_reviewed, ladder_status_id, next_review_date) VALUES ({card_id}, '{current_date}', 1, CURRENT_TIMESTAMP + INTERVAL 6 DAY);")
+    commit_and_close_connection(conn)
+
 conn, c = connect_database()
 
 commit_and_close_connection(conn)
