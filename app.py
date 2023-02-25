@@ -24,7 +24,7 @@ if rows is None:
 # Take User input
 user_input = input()
 
-# Process user inpu
+# Process user input
 # compare user input to the column 'pinyin'
 if user_input == card_data['pinyin']:
     print('Correct!')

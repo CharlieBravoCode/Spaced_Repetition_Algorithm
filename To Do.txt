@@ -1,0 +1,14 @@
+
+
+To do for the Spaced_Repetition_Algorithm:
+
+- build a list queue_cards
+    - its a select statement of a sorted list by next review_date of the cards, pull from top.
+    - from time to time the app also needs to pull new cards from the database
+
+- build a function to get the next card
+    - get the first card in the list queue_cards
+    - if the list is empty, get the first card in the database
+
+- build a function to update the card
+- build a function to update the list queue_cards
